@@ -1,0 +1,11 @@
+[project]
+name = "ranked-service"
+authors = ["awalki"]
+version = "0.1.0"
+description = "ranked service created specially for mtc"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "sqlmodel>=0.0.24",
+]
